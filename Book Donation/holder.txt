@@ -1,0 +1,7 @@
+<option data-count="0" value="Select">Select</option>
+    <option data-count="1" value="Computer science">Computer science</option>
+    <option data-count="2" value="Electrical science">Electrical sciences</option>
+    <option data-count="3" value="Mathematics">Mathematics</option>
+    <option data-count="4" value="Thermodynamics">Thermodynamics</option>
+    <option data-count="5" value="Social Sciences">Social Sciences</option>
+    <option data-count="6" value="Languages">Languages</option>

@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Postman hackathon</title>
+    <link rel="stylesheet" href="./page5.css">
+  </head>
+  <style>
+    body {
+      background-image: url("bgimage.jpg"); background-repeat:no-repeat; background-size: cover;
+    }
+    </style>
+  <style>
+    input[type="submit"]
+    {
+      background-color: green;
+      color: white;
+    }
+  </style>
+
+  <body >
+    <form id="search-form" action="send_email.php" method="POST">
+      <input type="text" name="name" placeholder="Name" required /><br>
+      <input type="text" name="email" placeholder="Email" required /><br><br>
+      <input type="submit" name="Submit" value="submit"/>
+
+      <a href="page_1.html">
+        <button class="btn" style="width: 350px; height: 50px" type="button" >Next</button>
+      </a>
+      
+    </form>
+ 
+  </body>
+</html>

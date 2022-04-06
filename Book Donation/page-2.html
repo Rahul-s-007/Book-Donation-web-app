@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="./page-2.css">
+
+</head>
+  <h1>Select book Type</h1>
+
+<style>
+body {
+  background-image: url("bgimage.jpg"); background-repeat:no-repeat; background-size: cover;
+}
+</style>
+
+<form id="Select book Type" action="insert1.php" method="POST">
+  <select name="book_name" required>
+    <option value="Select">Select</option>
+    <option value="Computer science">Computer science</option>
+    <option value="Electrical science">Electrical sciences</option>
+    <option value="Mathematics">Mathematics</option>
+    <option value="Thermodynamics">Thermodynamics</option>
+    <option value="Social Sciences">Social Sciences</option>
+    <option value="Languages">Languages</option>
+  </select>
+  <div class="form-field">
+    <input type="submit" value="Submit" name="submit"></button>
+  </div>
+
+  <div class="form-field">
+    <a href="page5.html">
+      <button class="btn" type="button">Next</button>
+    </a>
+  </div>
+
+</form>
+
+</body>
+
+</html>
