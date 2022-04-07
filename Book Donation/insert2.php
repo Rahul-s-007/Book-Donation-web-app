@@ -14,8 +14,8 @@ $book_name = $_POST['book_name'];
 if(!empty($book_name))
 {
     $host = "localhost";
-    $dbUsername = "root_1";
-    $dbPassword = "Rahul123";
+    $dbUsername = "root";
+    $dbPassword = "";
     $dbName = "project1";
 
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName, 3307);
